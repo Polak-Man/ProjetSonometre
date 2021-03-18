@@ -13,3 +13,8 @@ https://robotdyn.com/pub/media/0G-00005806==MEGA+WiFi-R3-AT2560-ESP8266-32MB-CH3
 
 #POTENTIELLEMENT UTILE<br />
 https://tommydesrochers.com/la-meilleure-methode-pour-heberger-une-interface-web-sur-esp32-version-avancee-esp32-ep4/
+
+
+
+*#Potentiellement utile pour partie LOGAN#* <br />
+https://zestedesavoir.com/tutoriels/686/arduino-premiers-pas-en-informatique-embarquee/1213_internet-of-things-arduino-sur-internet/4847_arduino-et-ethernet-client/
