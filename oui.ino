@@ -1,19 +1,14 @@
-/*********
-  Rui Santos
-  Complete project details at https://randomnerdtutorials.com  
-*********/
-
-// Load Wi-Fi library
+// Ajout de la bibliothèque Wi-Fi
 #include <ESP8266WiFi.h>
 
-// Replace with your network credentials
-const char* ssid     = "Partage de LA FLÈCHE";
-const char* password = "12345678901";
+// SSID et MDP du Réseau sur lequel l'ESP va se connecter
+const char* ssid     = "....";
+const char* password = "....";
 
-// Set web server port number to 80
+// Met le port du serveur sur le 80
 WiFiServer server(80);
 
-// Variable to store the HTTP request
+// Variable pour stocker la requete HTTP
 String header;
 
 // Auxiliar variables to store the current output state
