@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Accueil</title>
+		<meta charset="utf-8">
+		<style>
+			html { font-family: Helvetica; display: }
+			.titre { align-self: center; color: orange; }
+
+			.left_button_case { display: inline-block; position: relative; text-align: center; left: 5%; }
+			.left_button { position: relative; background-color: #195B6A; border: none; color: white; padding: 16px 40px; text-decoration: none; font-size: 30px; cursor: pointer; }
+			.left_button2 { background-color: #77878A; }
+
+			.up_right_button_case { display: inline-block; position: absolute; text-align: center; right: 5%; }
+			.admin_button { position: relative; background-color: black; border: none; color: white; padding: 16px 40px; text-decoration: none; font-size: 30px; cursor: pointer; }
+
+			.description { position: relative; }
+
+		</style>
+	</head>
+	<body>
+
+		<div class="titre">
+			<H1>Sonomètre</H1>
+		</div>
+
+		<div class="left_button_case">
+			<p class="description">GPIO 5 - State " + output5State + "</p>
+			<p><a href=/5/on><button class=left_button>ON</button></a></p>
+		</div>
+
+		<div class="up_right_button_case">
+			<p><a href=/parametre><button class=admin_button>Paramètre</button></a></p>
+		</div>
+		<img src="https://png.pngtree.com/element_our/20190530/ourmid/pngtree-cartoon-gear-icon-download-image_1251421.jpg" />
+		<br /><a href="index2.php">Index</a>
+	</body>
+</html>
